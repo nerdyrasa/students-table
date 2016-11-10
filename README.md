@@ -27,6 +27,8 @@
 
 - [x] When a user clicks on “2” in the pagination, students 11 through 20 are shown. When a user clicks “3”, students 21 through 30 are shown. And so on. When “6” is clicked 51 through 55 should be shown.
 
+- [ ] If user clicks on "2" in the pagination, it should be the "active" page. If the user clicks "3", then "3" should be active, etc.
+
 - [x] The program should work for any number of students. 
 
 
