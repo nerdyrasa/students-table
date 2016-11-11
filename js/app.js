@@ -1,4 +1,4 @@
-var NUMBER_OF_STUDENTS_PER_PAGE = 10;
+var NUMBER_OF_STUDENTS_PER_PAGE = 6;
 var $ul_li = $("ul li");
 var numberOfStudents = $ul_li.length;
 var numberOfPages = Math.ceil( numberOfStudents / NUMBER_OF_STUDENTS_PER_PAGE );
@@ -13,7 +13,7 @@ $(links[0]).trigger('click');
 function goToPage(){
 
   var pageNumber = $(this).text();
-  var lowerBound = ( pageNumber - 1 ) * 10;
+  var lowerBound = ( pageNumber - 1 ) * NUMBER_OF_STUDENTS_PER_PAGE;
   var upperBound = pageNumber * NUMBER_OF_STUDENTS_PER_PAGE;
 
   $('.pagination ul li a.active').removeClass('active');
