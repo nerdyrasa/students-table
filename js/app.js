@@ -5,8 +5,11 @@ var numberOfPages = Math.ceil( numberOfStudents / NUMBER_OF_STUDENTS_PER_PAGE );
 
 createPaginationLinks();
 
+// Get the first link and then trigger a the event so the first 10 students are loaded
 var firstLink = $('.pagination ul li a');
 $(firstLink[0]).trigger('click');
+
+// This function shows 10 students at a time corresponding to the page that was clicked
 
 function goToPage(){
 
@@ -27,10 +30,14 @@ function goToPage(){
   });
 }
 
+// This function creates the page links depending on the number of students
+// The markup does not strictly conform to the specification, but it is very similar
+// and it works. May need to revisit this.
+
 function createPaginationLinks() {
 
   var paginationDiv = $("<div class='pagination'><ul><li></li></ul></div>");
-  //$(".page").append(paginationDiv);
+
   (paginationDiv).insertAfter(".student-list");
 
   for (var i=1; i <= numberOfPages; i++) {
