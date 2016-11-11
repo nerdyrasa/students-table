@@ -12,7 +12,7 @@ $(links[0]).trigger('click');
 // This function shows 10 students at a time corresponding to the page that was clicked
 function goToPage(){
 
-  pageNumber = $(this).text();
+  var pageNumber = $(this).text();
   var lowerBound = ( pageNumber - 1 ) * 10;
   var upperBound = pageNumber * NUMBER_OF_STUDENTS_PER_PAGE;
 
