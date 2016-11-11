@@ -1,4 +1,5 @@
-var NUMBER_OF_STUDENTS_PER_PAGE = 6;
+var NUMBER_OF_STUDENTS_PER_PAGE = 100;
+
 var $ul_li = $("ul li");
 var numberOfStudents = $ul_li.length;
 var numberOfPages = Math.ceil( numberOfStudents / NUMBER_OF_STUDENTS_PER_PAGE );
@@ -31,6 +32,10 @@ function goToPage(){
 
 // This function creates the page links depending on the number of students
 function createPaginationLinks() {
+
+  if (numberOfPages <= 1) {
+    return;
+  }
 
   var paginationDiv = $("<div class='pagination'><ul></ul></div>");
 

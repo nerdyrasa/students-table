@@ -16,10 +16,13 @@
 #### Progressive Enhancement
 - Basic content should be accessible to browsers that don't support JavaScript.
 - Content and functionality related to JavaScript should be added programmatically by JavaScript.
-	- Pagination buttons and search shouldn't be added directly to the index.html file.
+- Pagination buttons and search shouldn't be added directly to the index.html file.
 
 
 #### Requirements:
+- [x] If JavaScript is not enabled, the entire list of students will be displayed.
+
+If JavaScript is enabled, the following behavior should happen:
 
 - [x] When the page loads, your program should hide all but the first 10 students in the list.
 
@@ -27,7 +30,7 @@
 
 - [x] When a user clicks on “2” in the pagination, students 11 through 20 are shown. When a user clicks “3”, students 21 through 30 are shown. And so on. When “6” is clicked 51 through 55 should be shown.
 
-- [x ] If user clicks on "2" in the pagination, it should be the "active" page. If the user clicks "3", then "3" should be active, etc.
+- [x] If user clicks on "2" in the pagination, it should be the "active" page. If the user clicks "3", then "3" should be active, etc.
 
 - [x] The program should work for any number of students. 
 
