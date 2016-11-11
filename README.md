@@ -23,22 +23,25 @@
 
 - [x] When the page loads, your program should hide all but the first 10 students in the list.
 
-- [x] Calculate the number of pages needed and add the appropriate number of pagination links dynamically to the bottom of the page.
+- [x] Calculate the number of pages needed and add the appropriate number of pagination links dynamically to the bottom of the page. "1" should be active when page initially loads.
 
 - [x] When a user clicks on “2” in the pagination, students 11 through 20 are shown. When a user clicks “3”, students 21 through 30 are shown. And so on. When “6” is clicked 51 through 55 should be shown.
 
-- [ ] If user clicks on "2" in the pagination, it should be the "active" page. If the user clicks "3", then "3" should be active, etc.
+- [x ] If user clicks on "2" in the pagination, it should be the "active" page. If the user clicks "3", then "3" should be active, etc.
 
 - [x] The program should work for any number of students. 
 
 
 #### Extra Credit
 
+Extra Credit is not completed for now. I want to submit without it and I'll circle back later to complete it.
 
 - [ ] Include a search component so that a user could search for a particular student or students. See the file example-exceeds.html and lines 16-19 for what the markup for the search component should look like.
 - [ ] When the "Search" button is clicked, the list of students is filtered to match the search. For example if the name Phillip is typed into the box list all students whose name or email includes Phillip.
 - [ ] If no matches are found by the search, include a message in the HTML to tell the user there are no matches.
 
 
-#### Resources
+
+
+
 
