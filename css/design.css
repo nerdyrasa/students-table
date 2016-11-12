@@ -43,11 +43,12 @@ body{
       color: #fff
     }
 
+/* Student list ------------------------------------------------*/
+
 .student-list{}
 
   .student-item{
-    margin: 0 0 20px 0;
-    padding: 0 0 20px 0;
+    padding: 10px;
     border-bottom: 1px solid #eaeaea;
   }
 
@@ -94,6 +95,10 @@ body{
     padding: 0;
     border-bottom: none;
   }
+
+.student-item:nth-child(even) {
+  background-color: rgba(225, 241, 246, 0.53);
+}
 
 .pagination{
   margin: 40px 0 0 0;
