@@ -1,4 +1,4 @@
-var NUMBER_OF_STUDENTS_PER_PAGE = 10;
+var NUMBER_OF_STUDENTS_PER_PAGE = 6;
 
 var $ul_li = $("ul li");
 var numberOfStudents = $ul_li.length;

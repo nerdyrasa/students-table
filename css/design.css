@@ -48,7 +48,7 @@ body{
 .student-list{}
 
   .student-item{
-    padding: 10px;
+    padding: 15px;
     border-bottom: 1px solid #eaeaea;
   }
 
@@ -91,8 +91,6 @@ body{
       }
 
   .student-item:last-child{
-    margin: 0;
-    padding: 0;
     border-bottom: none;
   }
 

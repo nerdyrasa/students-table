@@ -39,7 +39,15 @@ If JavaScript is enabled, the following behavior should happen:
 
 Extra Credit is not completed for now. I want to submit without it and I'll circle back later to complete it.
 
-- [ ] Include a search component so that a user could search for a particular student or students. See the file example-exceeds.html and lines 16-19 for what the markup for the search component should look like.
+- [ ] Include a search component so that a user could search for a particular student or students:
+```
+        <!-- student search HTML to add dynamically -->
+        <div class="student-search">
+          <input placeholder="Search for students...">
+          <button>Search</button>
+        </div>
+        <!-- end search -->
+```        
 - [ ] When the "Search" button is clicked, the list of students is filtered to match the search. For example if the name Phillip is typed into the box list all students whose name or email includes Phillip.
 - [ ] If no matches are found by the search, include a message in the HTML to tell the user there are no matches.
 
