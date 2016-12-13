@@ -1,22 +1,21 @@
-## Treehouse Technical Degree Project 2 
 ### Pagination & Content Filter
 
-####Tech/Concepts:
+
 - JavaScript
 - JQuery
 - HTML
 - CSS
 - Progressive Enhancement
 - Unobtrusive JavaScript
-
-####Tools:
 - WebStorm
 - GitHub/Version Control
 
+![students](https://cloud.githubusercontent.com/assets/10632591/21155192/c5d05778-c136-11e6-9b7b-940067305843.png)
+
 #### Progressive Enhancement
-- Basic content should be accessible to browsers that don't support JavaScript.
-- Content and functionality related to JavaScript should be added programmatically by JavaScript.
-- Pagination buttons and search shouldn't be added directly to the index.html file.
+- Basic content is accessible to browsers that don't support JavaScript.
+- Content and functionality related to JavaScript is added programmatically by JavaScript.
+- Pagination buttons and search are not added directly to the index.html file.
 
 
 #### Requirements:
@@ -33,11 +32,6 @@ If JavaScript is enabled, the following behavior should happen:
 - [x] If user clicks on "2" in the pagination, it should be the "active" page. If the user clicks "3", then "3" should be active, etc.
 
 - [x] The program should work for any number of students. 
-
-
-#### Extra Credit
-
-Extra Credit is not completed for now. I want to submit without it and I'll circle back later to complete it.
 
 - [ ] Include a search component so that a user could search for a particular student or students:
 ```
