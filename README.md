@@ -10,7 +10,7 @@
 - WebStorm
 - GitHub/Version Control
 
-![students](https://cloud.githubusercontent.com/assets/10632591/21155192/c5d05778-c136-11e6-9b7b-940067305843.png)
+![students](https://cloud.githubusercontent.com/assets/10632591/21155280/2b5b4e40-c137-11e6-90a1-c4cd36c4406f.png)
 
 #### Progressive Enhancement
 - Basic content is accessible to browsers that don't support JavaScript.
